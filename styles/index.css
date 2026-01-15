@@ -1,0 +1,185 @@
+/*Background layout and design*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*General Layout*/
+
+:root{
+    --primary-color-:#292421;
+}
+
+body{
+    display: grid;
+    color: var(--primary-color-);
+    font-family:fantasy;
+    font-size: larger;
+}
+
+/*Header*/
+header{
+    padding: 10px;
+    background-color: white;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    max-height: 50px;
+    z-index: 2;
+}
+header div {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+header div img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Footer*/
+footer{
+    display: none;
+}
+
+
+/*Video background*/
+#background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#background-man{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: transparent;
+    background-color: rgba(32, 30, 30, 0.9);
+    opacity: 0.08;
+    z-index: 0;
+}
+
+/*Device background*/
+.mobile{
+    display: none;
+}
+
+#calendar{
+    width:100%;
+    height: 100%;
+}
+
+#background-computer, #background-window {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/*Widgets*/
+#screen-widgets{
+    position: absolute;
+    top: 48%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+#screen-widgets img{
+    width: 15%;
+    height: 15%;
+    margin-bottom: 5%;
+}
+
+/*Pop Up Initial Program*/
+#screen-program{
+    position: absolute;
+    top: 52%;
+    left: 27%;
+}
+
+#program{
+    width: 95%;
+    height: auto;
+}
+
+#interactive-features{
+    position: absolute;
+    top: 70%;
+    left: 39%;
+}
+
+#interactive-okButton img{
+    width: 34%;
+}
+
+#interactive-okButton img:hover{
+    transform: scale(90%);
+}
+
+@media screen and (max-width:1300px){
+    #screen-program{
+        top: 55%;
+        left: 28%;
+    }
+
+    #screen-program img{
+        width: 80%;
+    }
+
+    #interactive-features{
+        left: 40%;
+    }
+
+    #interactive-features img{
+        width: 28%;
+    }
+}
+
+@media screen and (max-width:1150px){
+    #screen-program img{
+        width: 70%;
+    }
+
+    #interactive-features{
+        top: 68.5%;
+        left: 39%;
+    }
+
+    #interactive-features img{
+        width: 23%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .computer{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    /*Device background*/
+    .computer{
+        display: none;
+    }
+
+    .mobile{
+        display: initial;
+    }
+}
+
+
+
+
