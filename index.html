@@ -5,21 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendar</title>
     <link rel="stylesheet" href="styles/index.css">
+    <script src="script/keyframes.js" defer></script>
 </head>
 <body>
     <header>
         <h1>My Calendar</h1>
-    </header>
-    <aside>
-        <div id="configuration"></div>
-    </aside>
-    <main>
-        <div id="calendar">
-            <img src="assets/images/pixel_art.png" alt="Phone">
+        <div>
+            <img id="menu" src="assets/images/icons/bars-solid-full.svg" alt="menu">
         </div>
-    </main>
+    </header>
+    <div id="main">
+        <video id="background" autoplay muted loop>
+            <source src="assets/videos/background-rain.mp4" type="video/mp4">
+        </video>
+        <div id="calendar">
+            <div id="background-calendar">
+                <img id="background-computer" class="computer" src="assets/images/pixel_art_large.png" alt="Computer">
+                <video id="background-man" autoplay muted loop>
+                    <source src="assets/videos/background-man.mp4" type="video/mp4">
+                </video>
+                <div id="computer-screen">
+                    <img id="background-window" class="computer" src="assets/images/pixel_art_screen.png" alt="Computer">
+                    <div id="screen-widgets">
+                        <img src="assets/images/widgets/pixel_art_file.png" alt="File icon">
+                        <img src="assets/images/widgets/pixel_artLbrowser.png" alt="Browser World Icon">
+                        <img src="assets/images/widgets/pixel_art_trashCan.png" alt="Trash Can Icon">
+                    </div>
+                    <div id="screen-program">
+                        <img id="program" src="assets/images/widgets/pixel_art_program.png" alt="Pop Up Program">
+                    </div>
+                    <div id="interactive-features">
+                        <a id="interactive-okButton" href="calendar.html"><img src="assets/images/widgets/pixel_art_okButton.png" alt="OK Button"></a>
+                    </div>
+                </div>
+                <img id="background-mobile" class="mobile" src="assets/images/pixel_art.png" alt="Phone">
+            </div>
+        </div>
+    </div>
     <footer>
-        <p>Coyright</p>
+        <p>&copy; 2026 MyWebsite. All rights reserved.</p>
     </footer>
 </body>
 </html>
