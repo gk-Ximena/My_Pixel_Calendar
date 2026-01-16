@@ -16,39 +16,52 @@ body{
     font-family:fantasy;
 }
 
-button{
-    background-color: #292421;
-    width: 100px;
-    height: 100px;
-}
-
 #container{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#header{
     background-color: aliceblue;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#monthDisplay{
+    font-size: large;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    height: 20px;
+}
+button{
+    background-color: #292421;
+    width: 20%;
 }
 
 #weekdays{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
     margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1%;
 }
 
 #weekdays div{
-    margin-left: 1%;
-    width: 14%;
-    height: auto;
     border: 1px solid black;
     padding: 3px;
 }
 
+/*Calendar layout*/
 #calendar {
-    display: flex;
-    justify-content: space-between;
     margin: 5%;
-    background-color: aquamarine;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 1%;
