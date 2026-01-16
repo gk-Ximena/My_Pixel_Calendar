@@ -1,0 +1,69 @@
+/*Background layout and design*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*General Layout*/
+
+:root{
+    --primary-color-:#292421;
+}
+
+body{
+    color: var(--primary-color-);
+    font-family:fantasy;
+}
+
+button{
+    background-color: #292421;
+    width: 100px;
+    height: 100px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+#weekdays{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+#weekdays div{
+    margin-left: 1%;
+    width: 14%;
+    height: auto;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+#calendar {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1%;
+
+}
+
+.day,
+.padding {
+    border: 1px solid black;
+    padding: 3px;
+    height: 100px;
+}
+
+.day {
+    background-image: url("/assets/images/widgets/pixel_art_file.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
