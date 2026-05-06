@@ -1,0 +1,126 @@
+/*Background layout and design*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*General Layout*/
+
+:root{
+    --primary-color-:#292421;
+}
+
+body{
+    color: var(--primary-color-);
+    font-family:fantasy;
+}
+
+img{
+    width: 8%;
+    height: 8%;
+}
+
+#background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 7%;
+    padding: 5%;
+    background-image: url("../assets/images/calendar/pixel_art_calendarBackground.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/images/calendar/pixel_art_headerCalendar.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    top: -8%;
+    left: 20%;
+}
+
+audio {
+    width: 50%;
+    height: 20%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#monthDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1%;
+}
+a{
+    margin-bottom: 2%;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20px;
+}
+button{
+    background-color: #a75f37;
+    width: 20%;
+}
+
+#weekdays{
+    display: grid;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1%;
+}
+
+#weekdays div{
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Calendar layout*/
+#calendar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1%;
+}
+
+.day,
+.padding {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day {
+    background-image: url("../assets/images/calendar/pixel_art_day.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
