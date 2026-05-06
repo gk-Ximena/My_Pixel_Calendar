@@ -6,15 +6,27 @@
     <title>Calendar Cozy Pixel Art</title>
     <link rel="stylesheet" href="styles/calendar.css">
     <script src="script/calendar.js" defer></script>
+    <script src="script/keyframesCalendar.js" defer></script>
 </head>
 <body>
+    <video id="background" autoplay muted loop>
+        <source src="assets/videos/calendar/background-snow.mp4" type="video/mp4">
+    </video>
+    <img id="snowflake1" src="assets/images/calendar/snowflake-regular-full.svg" alt="snowflake">
+    <img id="snowflake2" src="assets/images/calendar/snowflake-regular-full.svg" alt="snowflake">
+
     <div id="container">
         <div id="header">
-            <div id="monthDisplay"></div>
+            <h1 id="monthDisplay"></h1>
             <div id="buttons">
-                <button id="backButton"></button>
-                <button id="nextButton"></button>
+                <button id="backButton"><-</button>
+                <button id="nextButton">-></button>
             </div>
+            <audio controls loop>
+                <source src="assets/audios/bbc_weather--s_07061032.mp3" type="audio/mp3">
+                <p>Your browser does not support the audio element.</p>
+            </audio>
+            <a href="index.html">Back To The Menu</a>
         </div>
 
         <div id="weekdays">

@@ -1,0 +1,71 @@
+Instructions:
+Index page has a hyperlink to the calendar page in the OK button displaying in the computer pixel art.
+
+Theme: Cozy Calendar website
+
+References:
+    Videos:
+        1.Name of the media file: background-man.mp4
+          Description: This video was used as background in index.html to simulate a reflection.
+          Author: Ba Tik (Free to use)
+          Hyperlink: https://www.pexels.com/video/shadow-footage-of-a-man-3753693/
+        2.Name of the media file: background-rain.mp4
+          Description: This video was used as background in index.html.
+          Author: Wayne Speedy (Free to use)
+          Hyperlink: https://www.pexels.com/video/storm-rain-raining-streetlamps-4323285/
+        Calendar:
+            1.Name of the media file: background-snow.mp4
+              Description: This video was used as background in the calendar.html.
+              Author: Ahto Palmre (Free to use)
+              Hyperlink: https://www.pexels.com/video/serene-snowy-forest-at-sunrise-30123241/
+
+    Audios:
+        1.Name of the media file: bbc_weather--s_07061032.mp3
+          Description: This audio was used as audio in the calendar.html to simulate snowy weather sounds.
+          Author: BBC sound effects
+          Hyperlink: https://sound-effects.bbcrewind.co.uk/search?q=07061032
+
+    Images:
+        1.Name of the media file: pixel_art_large.png
+          Description: This image was used as the background for index.html, cozy computer background.
+          Author: Ximena Alvarez(own work)
+        2.Name of the media file: pixel_art_screen.png
+          Description: This image was used as the screen background for index.html.
+          Author: Ximena Alvarez(own work)
+        Widgets:
+            1.Name of the media file: pixel_art_file.png
+              Description: This image was used as an icon for the screen computer for index.html.
+              Author: Ximena Alvarez(own work)
+            2.Name of the media file: pixel_art_trashCan.png
+              Description: This image was used as an icon for the screen computer for index.html.
+              Author: Ximena Alvarez(own work)
+            3.Name of the media file: pixel_art_browser.png
+              Description: This image was used as an icon for the screen computer for index.html.
+              Author: Ximena Alvarez(own work)
+            4.Name of the media file: pixel_art_okButton.png
+              Description: This image was used as the ok hyperlink button for the screen computer for index.html to calendar.html.
+              Author: Ximena Alvarez(own work)
+            5.Name of the media file: pixel_art_program.png
+              Description: This image was used as a program for the screen computer for index.html.
+              Author: Ximena Alvarez(own work)
+
+        Icons:
+            1.Name of the media file: bars-solid-full.svg
+              Description: This icon was used in the top right for the index.html (prototype)
+              Author: fontawesome (Free to use)
+              Hyperlink: https://fontawesome.com/icons/bars?f=classic&s=solid
+
+        Calendar:
+            1.Name of the media file: pixel_art_calendarBackground.png
+              Description: This image was used as the background for calendar.html.
+              Author: Ximena Alvarez(own work)
+            2.Name of the media file: pixel_art_day.png
+              Description: This image was used as the background for the days in the calendar.
+              Author: Ximena Alvarez(own work)
+            3.Name of the media file: pixel_art_headerCalendar.png
+              Description: This image was used as the background header for calendar.html.
+              Author: Ximena Alvarez(own work)
+            4.Name of the media file: snowflake-regular-full.svg
+              Description: This icon was used for background animation in calendar.html.
+              Author: fontawesome (Free to use)
+              Hyperlink: https://fontawesome.com/icons/snowflake?f=classic&s=solid

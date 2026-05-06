@@ -1,6 +1,6 @@
 //General keyframes
 
-//Menu keyframe animation
+//Menu keyframe animation (prototype)
 let menuBtn = document.getElementById("menu");
 
 menuBtn.style.position = "absolute";
@@ -24,3 +24,4 @@ menuAnimation.pause();
 menuBtn.addEventListener("click", function(event){
     menuAnimation.play();
 });
+
